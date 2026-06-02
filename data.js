@@ -1,4 +1,4 @@
-// Fichier généré le 2026-06-02 11:17:53
+// Fichier généré le 2026-06-02 11:19:44
 const data = {
     "niveau2": {
         "106": [
@@ -46,7 +46,7 @@ const data = {
             {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-11", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS0601B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "UV-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "3,0", "PUISSANCE (KW)": "1,52103889482", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "72", "Vérification": "RIC-BAT632-7", "TAC Tuyauterie": "Suivi des travaux à compléter", "TAC PSM": "Suivi des travaux à compléter", "TAC Integrair": "Suivi des travaux à compléter", "TAC Isotexfab": "Suivi des travaux à compléter", "TAC Barrette": "Suivi des travaux à compléter"}},
             {"nom": "ROBINET MOTORISÉ RM-104A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B208", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "65,29", "DIAMÈTRE (MM)": "65,29", "TAC Tuyauterie": "Suivi des travaux à compléter", "TAC PSM": "Suivi des travaux à compléter", "TAC Integrair": "Suivi des travaux à compléter", "TAC Isotexfab": "Suivi des travaux à compléter", "TAC Barrette": "Suivi des travaux à compléter"}},
             {"nom": "ROBINET MOTORISÉ RM-104B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,05", "PERTE DE PRESSION (KPA)": "27,72", "DIAMÈTRE (MM)": "27,72", "TAC Tuyauterie": "Suivi des travaux à compléter", "TAC PSM": "Suivi des travaux à compléter", "TAC Integrair": "Suivi des travaux à compléter", "TAC Isotexfab": "Suivi des travaux à compléter", "TAC Barrette": "Suivi des travaux à compléter"}},
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC Integrair": "Thermostats et Détecteurs de mouvements"}}
+            {"nom": "TAC Sous-Traitants ", "details": {}}
         ],
         "105": [
             {"nom": "PLINTHES DE CHAUFFAGE P-105", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "0,6999709626952", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "69", "LONGUEUR (MM)": "762", "LONGUEUR CABINET (MM)": "1220", "ARRANGEMENT": "D", "TAC Tuyauterie": "Suivi des travaux à compléter", "TAC PSM": "Suivi des travaux à compléter", "TAC Integrair": "Suivi des travaux à compléter", "TAC Isotexfab": "Suivi des travaux à compléter", "TAC Barrette": "Suivi des travaux à compléter"}},
