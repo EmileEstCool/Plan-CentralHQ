@@ -1,281 +1,286 @@
-// Fichier généré le 2026-06-12 10:20:12
+// Fichier généré le 2026-06-13 15:13:44
 const data = {
+    "NIVEAU": {
+        "LOCAL": [
+            {"nom": "EQUIPEMENT CODE", "details": {}}
+        ]
+    },
     "niveau1": {
         "003": [
-            {"nom": "AÉROTHERME A-003", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "ROBINET MOTORISÉ RM-003A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "48,33", "DIAMÈTRE (MM)": "48,33"}},
-            {"nom": "ROBINET MOTORISÉ RM-003B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}}
+            {"nom": "AÉROTHERME A-003", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-003A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-003B", "details": {}}
         ],
         "004": [
-            {"nom": "AÉROTHERME A-004", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "ROBINET MOTORISÉ RM-004", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "48,33", "DIAMÈTRE (MM)": "48,33"}}
+            {"nom": "AÉROTHERME A-004", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-004", "details": {}}
         ],
         "007": [
-            {"nom": "AÉROTHERME A-007A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-70", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,32", "DÉBIT AIR (L/S)": "696,00", "PUISSANCE (KW)": "12,79401791009", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,16", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "AÉROTHERME A-007B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-70", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,32", "DÉBIT AIR (L/S)": "696,00", "PUISSANCE (KW)": "12,79401791009", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,16", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "AÉROCONVECTEUR C-007A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "F-300-A", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-007-0", "DÉBIT LIQUIDE (L/S)": "0,1", "DÉBIT AIR (L/S)": "94", "PUISSANCE (KW)": "4,129078417942", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,07", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "AÉROCONVECTEUR C-007B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "F-300-A", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-007-0", "DÉBIT LIQUIDE (L/S)": "0,1", "DÉBIT AIR (L/S)": "94", "PUISSANCE (KW)": "4,129078417942", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,07", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z1341", "RÉSEAU DE TUYAUTERIE": "Eau Froide Service", "FT / DA": "FT-MEC017-0"}},
-            {"nom": "ROBINET MOTORISÉ RM-007A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B318", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,90", "PERTE DE PRESSION (KPA)": "25,37", "DIAMÈTRE (MM)": "25,37"}},
-            {"nom": "ROBINET MOTORISÉ RM-007B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B312", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,48", "PERTE DE PRESSION (KPA)": "44,33", "DIAMÈTRE (MM)": "44,33"}},
-            {"nom": "ROBINET MOTORISÉ RM-007C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-007D", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-007E", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,32", "PERTE DE PRESSION (KPA)": "60,33", "DIAMÈTRE (MM)": "60,33"}},
-            {"nom": "ROBINET MOTORISÉ RM-007F", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,32", "PERTE DE PRESSION (KPA)": "60,33", "DIAMÈTRE (MM)": "60,33"}},
-            {"nom": "ROBINET MOTORISÉ RM-007G", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "51,09", "DIAMÈTRE (MM)": "51,09"}},
-            {"nom": "ROBINET MOTORISÉ RM-007H", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "51,09", "DIAMÈTRE (MM)": "51,09"}},
-            {"nom": "LAVE AUTO ", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique de Prod", "MARQUE": "Mrs CLEAN", "MODÈLE": "2000"}}
+            {"nom": "AÉROTHERME A-007A", "details": {}},
+            {"nom": "AÉROTHERME A-007B", "details": {}},
+            {"nom": "AÉROCONVECTEUR C-007A", "details": {}},
+            {"nom": "AÉROCONVECTEUR C-007B", "details": {}},
+            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-007A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-007B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-007C", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-007D", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-007E", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-007F", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-007G", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-007H", "details": {}},
+            {"nom": "LAVE AUTO ", "details": {}}
         ],
         "011": [
-            {"nom": "AÉROTHERME A-011", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "DRAINS DE PLANCHER AS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-B5", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "DRAINS DE PLANCHER AS-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-BF", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "ROBINET MOTORISÉ RM-011A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B213", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,62", "PERTE DE PRESSION (KPA)": "30,68", "DIAMÈTRE (MM)": "30,68"}},
-            {"nom": "ROBINET MOTORISÉ RM-011B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,16", "PERTE DE PRESSION (KPA)": "31,58", "DIAMÈTRE (MM)": "31,58"}},
-            {"nom": "ROBINET MOTORISÉ RM-011C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-011D", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-011E", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BD1202B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-07", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,62", "PERTE DE PRESSION (KPA)": "34,6", "PUISSANCE (KW)": "25,503924420794", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "Vérification": "RIC-BAT632-7"}}
+            {"nom": "AÉROTHERME A-011", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-1", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-2", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-011A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-011B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-011C", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-011D", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-011E", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-07", "details": {}}
         ],
         "013": [
-            {"nom": "AÉROTHERME A-013", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "CUVE CU-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "CAN-AQUA", "MODÈLE": "CA-EUPS-1818", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable & Eau Froide Potable & Évent", "FT / DA": "FT-MEC011-0"}},
-            {"nom": "ROBINET MOTORISÉ RM-013A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B212", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,38", "PERTE DE PRESSION (KPA)": "27,65", "DIAMÈTRE (MM)": "27,65"}},
-            {"nom": "ROBINET MOTORISÉ RM-013B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "48,33", "DIAMÈTRE (MM)": "48,33"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BD1102B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-05", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,38", "PERTE DE PRESSION (KPA)": "27,5", "PUISSANCE (KW)": "14,829103475722", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "Vérification": "RIC-BAT632-7"}}
+            {"nom": "AÉROTHERME A-013", "details": {}},
+            {"nom": "CUVE CU-2", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-013A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-013B", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-05", "details": {}}
         ],
         "014": [
-            {"nom": "AÉROTHERME A-014", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "ROBINET MOTORISÉ RM-014A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B209", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "27,58", "DIAMÈTRE (MM)": "27,58"}},
-            {"nom": "ROBINET MOTORISÉ RM-014B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "48,33", "DIAMÈTRE (MM)": "48,33"}},
-            {"nom": "ROBINET MOTORISÉ RM-014C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BB0601B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-06", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "2,1", "PUISSANCE (KW)": "4,124389280694", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "Vérification": "RIC-BAT632-7"}}
+            {"nom": "AÉROTHERME A-014", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-014A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-014B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-014C", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-06", "details": {}}
         ],
         "016": [
-            {"nom": "AÉROTHERME A-016A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "AÉROTHERME A-016B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "DRAINS DE PLANCHER AS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-B5", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "DOUCHE OCULAIRE DO-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "BRADLEY", "MODÈLE": "S19-690", "RÉSEAU DE TUYAUTERIE": "N/A", "FT / DA": "FT-MEC016-A"}},
-            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z1341", "RÉSEAU DE TUYAUTERIE": "Eau Froide Service", "FT / DA": "FT-MEC017-0"}},
-            {"nom": "ROBINET MOTORISÉ RM-016A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B210", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,18", "PERTE DE PRESSION (KPA)": "40,27", "DIAMÈTRE (MM)": "40,27"}},
-            {"nom": "ROBINET MOTORISÉ RM-016B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-016C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-016D", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-016E", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,16", "PERTE DE PRESSION (KPA)": "31,58", "DIAMÈTRE (MM)": "31,58"}},
-            {"nom": "ROBINET MOTORISÉ RM-016F", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,16", "PERTE DE PRESSION (KPA)": "31,58", "DIAMÈTRE (MM)": "31,58"}},
-            {"nom": "ROBINET MOTORISÉ RM-016G", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F6100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "5,05", "PERTE DE PRESSION (KPA)": "0,12", "DIAMÈTRE (MM)": "0,12"}},
-            {"nom": "ROBINET MOTORISÉ RM-016H", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F6100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "5,05", "PERTE DE PRESSION (KPA)": "0,12", "DIAMÈTRE (MM)": "0,12"}},
-            {"nom": "ROBINET MOTORISÉ RM-016I", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F7100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "15,14", "PERTE DE PRESSION (KPA)": "7,51", "DIAMÈTRE (MM)": "7,51"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS1001C", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-01", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,18", "PERTE DE PRESSION (KPA)": "17,0", "PUISSANCE (KW)": "6,11785875325", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "68", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "ÉCHANGEUR ", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "TOROMONT", "MODÈLE": "AB-2005", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "HQ-Toromont-Éch-3508"}}
+            {"nom": "AÉROTHERME A-016A", "details": {}},
+            {"nom": "AÉROTHERME A-016B", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-1", "details": {}},
+            {"nom": "DOUCHE OCULAIRE DO-1", "details": {}},
+            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-016A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-016B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-016C", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-016D", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-016E", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-016F", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-016G", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-016H", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-016I", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-01", "details": {}},
+            {"nom": "ÉCHANGEUR ", "details": {}}
         ],
         "017": [
-            {"nom": "AÉROTHERME A-017A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "AÉROTHERME A-017B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "DRAINS DE PLANCHER AS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-B5", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "DOUCHE OCULAIRE DO-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "BRADLEY", "MODÈLE": "S19-690", "RÉSEAU DE TUYAUTERIE": "N/A", "FT / DA": "FT-MEC016-A"}},
-            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z1341", "RÉSEAU DE TUYAUTERIE": "Eau Froide Service", "FT / DA": "FT-MEC017-0"}},
-            {"nom": "ROBINET MOTORISÉ RM-017A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B210", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,18", "PERTE DE PRESSION (KPA)": "40,27", "DIAMÈTRE (MM)": "40,27"}},
-            {"nom": "ROBINET MOTORISÉ RM-017B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-017C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-017D", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-017E", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,16", "PERTE DE PRESSION (KPA)": "31,58", "DIAMÈTRE (MM)": "31,58"}},
-            {"nom": "ROBINET MOTORISÉ RM-017F", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,16", "PERTE DE PRESSION (KPA)": "31,58", "DIAMÈTRE (MM)": "31,58"}},
-            {"nom": "ROBINET MOTORISÉ RM-017G", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F6100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "5,05", "PERTE DE PRESSION (KPA)": "0,12", "DIAMÈTRE (MM)": "0,12"}},
-            {"nom": "ROBINET MOTORISÉ RM-017H", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F6100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "5,05", "PERTE DE PRESSION (KPA)": "0,12", "DIAMÈTRE (MM)": "0,12"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-02", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS1001C", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-02", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,18", "PERTE DE PRESSION (KPA)": "17,0", "PUISSANCE (KW)": "6,11785875325", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "68", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "ÉCHANGEUR ", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "TOROMONT", "MODÈLE": "AB-2005", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "HQ-Toromont-Éch-3508"}}
+            {"nom": "AÉROTHERME A-017A", "details": {}},
+            {"nom": "AÉROTHERME A-017B", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-1", "details": {}},
+            {"nom": "DOUCHE OCULAIRE DO-1", "details": {}},
+            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-017A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-017B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-017C", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-017D", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-017E", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-017F", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-017G", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-017H", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-02", "details": {}},
+            {"nom": "ÉCHANGEUR ", "details": {}}
         ],
         "018": [
-            {"nom": "AÉROTHERME A-018A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "AÉROTHERME A-018B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "DRAINS DE PLANCHER AS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-B5", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "DOUCHE OCULAIRE DO-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "BRADLEY", "MODÈLE": "S19-690", "RÉSEAU DE TUYAUTERIE": "N/A", "FT / DA": "FT-MEC016-A"}},
-            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z1341", "RÉSEAU DE TUYAUTERIE": "Eau Froide Service", "FT / DA": "FT-MEC017-0"}},
-            {"nom": "ROBINET MOTORISÉ RM-018A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B210", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,18", "PERTE DE PRESSION (KPA)": "40,27", "DIAMÈTRE (MM)": "40,27"}},
-            {"nom": "ROBINET MOTORISÉ RM-018B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-018C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-018D", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-018E", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,16", "PERTE DE PRESSION (KPA)": "31,58", "DIAMÈTRE (MM)": "31,58"}},
-            {"nom": "ROBINET MOTORISÉ RM-018F", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,16", "PERTE DE PRESSION (KPA)": "31,58", "DIAMÈTRE (MM)": "31,58"}},
-            {"nom": "ROBINET MOTORISÉ RM-018G", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F6100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "5,05", "PERTE DE PRESSION (KPA)": "0,12", "DIAMÈTRE (MM)": "0,12"}},
-            {"nom": "ROBINET MOTORISÉ RM-018H", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F6100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "5,05", "PERTE DE PRESSION (KPA)": "0,12", "DIAMÈTRE (MM)": "0,12"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS1001C", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,18", "PERTE DE PRESSION (KPA)": "17,0", "PUISSANCE (KW)": "6,11785875325", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "68", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "ÉCHANGEUR ", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "TOROMONT", "MODÈLE": "AB-2006", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "HQ-Toromont-Éch-3512"}}
+            {"nom": "AÉROTHERME A-018A", "details": {}},
+            {"nom": "AÉROTHERME A-018B", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-1", "details": {}},
+            {"nom": "DOUCHE OCULAIRE DO-1", "details": {}},
+            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-018A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-018B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-018C", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-018D", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-018E", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-018F", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-018G", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-018H", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-03", "details": {}},
+            {"nom": "ÉCHANGEUR ", "details": {}}
         ],
         "021": [
-            {"nom": "AÉROTHERME A-021", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "DRAINS DE PLANCHER AS-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-BF", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "DISPOSITIF ANTIREFOULEMENT DAR-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "350 XL", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable", "FT / DA": "FT-MEC022-0"}},
-            {"nom": "DISPOSITIF ANTIREFOULEMENT DAR-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "350 XL", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable", "FT / DA": "FT-MEC022-0"}},
-            {"nom": "ÉCHANGEUR ECH-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "AMSTRONG", "MODÈLE": "AHRI 18.9G-A", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable", "FT / DA": "FT-MEC034-0"}},
-            {"nom": "POMPE PE-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "GRUNFOS", "MODÈLE": "CMBE 5-62-U-C-E-D-F", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable", "FT / DA": "FT-MEC020-0", "DÉBIT LIQUIDE (L/S)": "1,7", "TÊTE (KPA)": "157", "TEMPÉRATURE MOYENNE (oC)": "15", "VITESSE (RPM)": "3600", "MOTEUR (HP)": "2"}},
-            {"nom": "POMPE PE-02", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ARMSTRONG", "MODÈLE": "E7-2B", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable", "FT / DA": "FT-MEC025-0", "DÉBIT LIQUIDE (L/S)": "0,7", "TÊTE (KPA)": "11,5", "TEMPÉRATURE MOYENNE (oC)": "65", "VITESSE (RPM)": "3600", "MOTEUR (HP)": "0,0625"}},
-            {"nom": "RÉSERVOIR D'EAU POTABLE R-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "NORWESCO", "MODÈLE": "44945", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable", "FT / DA": "FT-MEC002-A", "VOLUME RÉSERVOIR (L)": "1887"}},
-            {"nom": "RÉSERVOIR D'EAU CHAUDE REC-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "AO-SMITH", "MODÈLE": "TJ-80S", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable", "FT / DA": "FT-MEC018-0"}},
-            {"nom": "RÉSERVOIR D'EXPANSION REX-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "AMTROL", "MODÈLE": "ST-12C", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable", "FT / DA": "FT-MEC019-0"}},
-            {"nom": "ROBINET MOTORISÉ RM-021A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "26,89", "DIAMÈTRE (MM)": "26,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-021B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B210", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,20", "PERTE DE PRESSION (KPA)": "46,19", "DIAMÈTRE (MM)": "46,19"}}
+            {"nom": "AÉROTHERME A-021", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-2", "details": {}},
+            {"nom": "DISPOSITIF ANTIREFOULEMENT DAR-1", "details": {}},
+            {"nom": "DISPOSITIF ANTIREFOULEMENT DAR-2", "details": {}},
+            {"nom": "ÉCHANGEUR ECH-01", "details": {}},
+            {"nom": "POMPE PE-01", "details": {}},
+            {"nom": "POMPE PE-02", "details": {}},
+            {"nom": "RÉSERVOIR D'EAU POTABLE R-1", "details": {}},
+            {"nom": "RÉSERVOIR D'EAU CHAUDE REC-1", "details": {}},
+            {"nom": "RÉSERVOIR D'EXPANSION REX-1", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-021A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-021B", "details": {}}
         ],
         "020": [
-            {"nom": "DRAINS DE PLANCHER AS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-B5", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "CABINETS D'AISANCE CA-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "MANSFIELD", "MODÈLE": "ALTO 135-170", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable & Évent", "FT / DA": "FT-MEC008-0", "DÉBIT LIQUIDE (L/S)": "6"}},
-            {"nom": "PLINTHES DE CHAUFFAGE P-020", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "0,84", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "67", "LONGUEUR (MM)": "914", "LONGUEUR CABINET (MM)": "1475", "ARRANGEMENT": "D -> H", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-020", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "27,72", "DIAMÈTRE (MM)": "27,72"}},
-            {"nom": "URINOIR U-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z5755-U", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable & Évent", "FT / DA": "FT-MEC009-0", "DÉBIT LIQUIDE (L/S)": "1,9"}}
+            {"nom": "DRAINS DE PLANCHER AS-1", "details": {}},
+            {"nom": "CABINETS D'AISANCE CA-1", "details": {}},
+            {"nom": "PLINTHES DE CHAUFFAGE P-020", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-020", "details": {}},
+            {"nom": "URINOIR U-1", "details": {}}
         ],
         "022": [
-            {"nom": "DRAINS DE PLANCHER AS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-B5", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "CUVE CU-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z1996-24", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable & Eau Froide Potable & Évent", "FT / DA": "FT-MEC010-0"}}
+            {"nom": "DRAINS DE PLANCHER AS-1", "details": {}},
+            {"nom": "CUVE CU-1", "details": {}}
         ],
         "009": [
-            {"nom": "DRAINS DE PLANCHER AS-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-BF", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "PLINTHES DE CHAUFFAGE P-009", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "0,76", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "68", "LONGUEUR (MM)": "1067", "LONGUEUR CABINET (MM)": "3214", "ARRANGEMENT": "B", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-009A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "27,72", "DIAMÈTRE (MM)": "27,72"}},
-            {"nom": "ROBINET MOTORISÉ RM-009B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}}
+            {"nom": "DRAINS DE PLANCHER AS-2", "details": {}},
+            {"nom": "PLINTHES DE CHAUFFAGE P-009", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-009A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-009B", "details": {}}
         ],
         "010": [
-            {"nom": "DRAINS DE PLANCHER AS-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-BF", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "ROBINET MOTORISÉ RM-012A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B318", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,97", "PERTE DE PRESSION (KPA)": "29,99", "DIAMÈTRE (MM)": "29,99"}},
-            {"nom": "ROBINET MOTORISÉ RM-012B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B318", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,97", "PERTE DE PRESSION (KPA)": "29,99", "DIAMÈTRE (MM)": "29,99"}}
+            {"nom": "DRAINS DE PLANCHER AS-2", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-012A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-012B", "details": {}}
         ],
         "019": [
-            {"nom": "DRAINS DE PLANCHER AS-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-BF", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "DRAINS DE PLANCHER AS-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-BF", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "DRAINS DE PLANCHER AS-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-BF", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "AÉROCONVECTEUR C-019A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "F-300-A", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-007-0", "DÉBIT LIQUIDE (L/S)": "0,1", "DÉBIT AIR (L/S)": "94", "PUISSANCE (KW)": "4,129078417942", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,07", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "AÉROCONVECTEUR C-019B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "F-300-A", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-007-0", "DÉBIT LIQUIDE (L/S)": "0,1", "DÉBIT AIR (L/S)": "94", "PUISSANCE (KW)": "4,129078417942", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,07", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "ROBINET MOTORISÉ RM-019A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "51,09", "DIAMÈTRE (MM)": "51,09"}},
-            {"nom": "ROBINET MOTORISÉ RM-019B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "51,09", "DIAMÈTRE (MM)": "51,09"}}
+            {"nom": "DRAINS DE PLANCHER AS-2", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-2", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-2", "details": {}},
+            {"nom": "AÉROCONVECTEUR C-019A", "details": {}},
+            {"nom": "AÉROCONVECTEUR C-019B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-019A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-019B", "details": {}}
         ],
         "001": [
-            {"nom": "AÉROCONVECTEUR C-001", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "F-300-A", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-007-0", "DÉBIT LIQUIDE (L/S)": "0,1", "DÉBIT AIR (L/S)": "94", "PUISSANCE (KW)": "4,129078417942", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,07", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "ROBINET MOTORISÉ RM-001", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "51,09", "DIAMÈTRE (MM)": "51,09"}}
+            {"nom": "AÉROCONVECTEUR C-001", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-001", "details": {}}
         ],
         "ESC-01": [
-            {"nom": "AÉROCONVECTEUR C-ESC1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "F-300-A", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-007-0", "DÉBIT LIQUIDE (L/S)": "0,1", "DÉBIT AIR (L/S)": "94", "PUISSANCE (KW)": "4,129078417942", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,07", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "ROBINET MOTORISÉ RM-ESC1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "51,09", "DIAMÈTRE (MM)": "51,09"}}
+            {"nom": "AÉROCONVECTEUR C-ESC1", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-ESC1", "details": {}}
         ],
         "ESC-02": [
-            {"nom": "AÉROCONVECTEUR C-ESC2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "F-300-A", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-007-0", "DÉBIT LIQUIDE (L/S)": "0,1", "DÉBIT AIR (L/S)": "94", "PUISSANCE (KW)": "4,129078417942", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,07", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "ROBINET MOTORISÉ RM-ESC2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "51,09", "DIAMÈTRE (MM)": "51,09"}}
+            {"nom": "AÉROCONVECTEUR C-ESC2", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-ESC2", "details": {}}
         ],
         "002": [
-            {"nom": "FOSSE SEPTIQUE FS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ROTO-SPEC", "MODÈLE": "RS-6003R-18", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC001-0", "DÉBIT LIQUIDE (L/S)": "1,66", "VOLUME RÉSERVOIR (L)": "2424"}}
+            {"nom": "FOSSE SEPTIQUE FS-1", "details": {}}
         ],
         "012": [
-            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z1341", "RÉSEAU DE TUYAUTERIE": "Eau Froide Service", "FT / DA": "FT-MEC017-0"}}
+            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "details": {}}
         ]
     },
     "niveau2": {
         "106": [
-            {"nom": "AÉROTHERME A-106", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "DRAINS DE PLANCHER AS-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-BF", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "DRAINS DE PLANCHER AS-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-BF", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "DISPOSITIF ANTIREFOULEMENT DAR-3", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "350 XL", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable", "FT / DA": "FT-MEC022-0"}},
-            {"nom": "HUMIDIFICATUER HUM-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "À DÉTERMINER", "MODÈLE": "À DÉTERMINER", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable", "FT / DA": "À DÉTERMINER"}},
-            {"nom": "POMPE PG-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ARMSTRONG", "MODÈLE": "4300 - 3x3x10-4p", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "FT-MEC-026-A", "DÉBIT LIQUIDE (L/S)": "15,1", "TÊTE (KPA)": "224", "TEMPÉRATURE MOYENNE (oC)": "77", "VITESSE (RPM)": "1765", "MOTEUR (HP)": "7,5", "DIAMÈTRE IMPULSEUR (MM)": "230"}},
-            {"nom": "POMPE PG-02", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ARMSTRONG", "MODÈLE": "4300 - 3x3x10-4p", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "FT-MEC-026-A", "DÉBIT LIQUIDE (L/S)": "15,1", "TÊTE (KPA)": "224", "TEMPÉRATURE MOYENNE (oC)": "77", "VITESSE (RPM)": "1765", "MOTEUR (HP)": "7,5", "DIAMÈTRE IMPULSEUR (MM)": "230"}},
-            {"nom": "POMPE PG-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ARMSTRONG", "MODÈLE": "4380- 3x3x10-4p", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-026-A", "DÉBIT LIQUIDE (L/S)": "11,9", "TÊTE (KPA)": "179", "TEMPÉRATURE MOYENNE (oC)": "77", "VITESSE (RPM)": "1765", "MOTEUR (HP)": "5", "DIAMÈTRE IMPULSEUR (MM)": "203"}},
-            {"nom": "POMPE PG-04", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ARMSTRONG", "MODÈLE": "4380- 3x3x10-4p", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-026-A", "DÉBIT LIQUIDE (L/S)": "11,9", "TÊTE (KPA)": "179", "TEMPÉRATURE MOYENNE (oC)": "77", "VITESSE (RPM)": "1765", "MOTEUR (HP)": "5", "DIAMÈTRE IMPULSEUR (MM)": "203"}},
-            {"nom": "RÉSERVOIRS D'EXPANSION REX-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "AMTROL EXTROL", "MODÈLE": "AX-120V", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "FT-MEC-028", "PRESSION DE REMPLISSAGE (KPA)": "82,7", "PRESSION MAXIMUM (KPA)": "344,7", "PRESSION D'AJUSTEMENT SOUPAPE SÛRETÉ (KPA)": "689", "TEMPÉRATURE MIN (oC)": "5", "TEMPÉRATURE MAX (oC)": "100", "VOLUME RÉSERVOIR (L)": "257", "CAPACITÉ (L)": "128,7", "DIAMÈTRE (MM)": "610", "HAUTEUR (MM)": "1194"}},
-            {"nom": "RÉSERVOIRS D'EXPANSION REX-02", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "AMTROL EXTROL", "MODÈLE": "AX-120V", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "FT-MEC-028", "PRESSION DE REMPLISSAGE (KPA)": "82,7", "PRESSION MAXIMUM (KPA)": "344,7", "PRESSION D'AJUSTEMENT SOUPAPE SÛRETÉ (KPA)": "689", "TEMPÉRATURE MIN (oC)": "5", "TEMPÉRATURE MAX (oC)": "100", "VOLUME RÉSERVOIR (L)": "257", "CAPACITÉ (L)": "128,7", "DIAMÈTRE (MM)": "610", "HAUTEUR (MM)": "1194"}},
-            {"nom": "ROBINET MOTORISÉ RM-100A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B318", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "1,05", "PERTE DE PRESSION (KPA)": "35,09", "DIAMÈTRE (MM)": "35,09"}},
-            {"nom": "ROBINET MOTORISÉ RM-106A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "26,89", "DIAMÈTRE (MM)": "26,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-106B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "ROBINET MOTORISÉ RM-106C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F7100HD", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "11,89", "PERTE DE PRESSION (KPA)": "4,62", "DIAMÈTRE (MM)": "4,62"}},
-            {"nom": "SÉPARATEUR D'AIR SPA-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "SPIROTHERM", "MODÈLE": "VSR600FA", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "FT-MEC-029-0"}},
-            {"nom": "RÉSERVOIRS DE PRESSURISATION DE GLYCOL SPG-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "CALEFACTO", "MODÈLE": "GMP13100", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "FT-MEC-027", "MOTEUR (HP)": "0,33", "CAPACITÉ (L)": "378", "DIAMÈTRE (MM)": "710", "HAUTEUR (MM)": "1700"}},
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC Integrair": "Thermostats et Détecteurs de mouvements", "TAC Barrette": "Tirage de Câbles et Installation Fixtures Fluorescentes"}}
+            {"nom": "AÉROTHERME A-106", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-2", "details": {}},
+            {"nom": "DRAINS DE PLANCHER AS-2", "details": {}},
+            {"nom": "DISPOSITIF ANTIREFOULEMENT DAR-3", "details": {}},
+            {"nom": "HUMIDIFICATUER HUM-1", "details": {}},
+            {"nom": "POMPE PG-01", "details": {}},
+            {"nom": "POMPE PG-02", "details": {}},
+            {"nom": "POMPE PG-03", "details": {}},
+            {"nom": "POMPE PG-04", "details": {}},
+            {"nom": "RÉSERVOIRS D'EXPANSION REX-01", "details": {}},
+            {"nom": "RÉSERVOIRS D'EXPANSION REX-02", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-100A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-106A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-106B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-106C", "details": {}},
+            {"nom": "SÉPARATEUR D'AIR SPA-01", "details": {}},
+            {"nom": "RÉSERVOIRS DE PRESSURISATION DE GLYCOL SPG-01", "details": {}},
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "108": [
-            {"nom": "AÉROTHERME A-108", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
-            {"nom": "ROBINET MOTORISÉ RM-108", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "26,89", "DIAMÈTRE (MM)": "26,89"}}
+            {"nom": "AÉROTHERME A-108", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-108", "details": {}}
         ],
         "113": [
-            {"nom": "DRAINS DE PLANCHER AS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-B5", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
-            {"nom": "BOÎTIER DE LESSIVEUSE BL-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "SIOUX CHEF", "MODÈLE": "696RG2313MF", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable & Eau Froide Potable & Évent", "FT / DA": "FT-MEC015-0"}},
-            {"nom": "CABINETS D'AISANCE CA-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "MANSFIELD", "MODÈLE": "ALTO 135-170", "RÉSEAU DE TUYAUTERIE": "Eau Froide Potable & Évent", "FT / DA": "FT-MEC008-0", "DÉBIT LIQUIDE (L/S)": "1,9"}},
-            {"nom": "ÉVIER E-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "KINDRED", "MODÈLE": "QSLA2031-8-1", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable & Eau Froide Potable & Évent", "FT / DA": "FT-MEC012-0", "DÉBIT LIQUIDE (L/S)": "6,8"}},
-            {"nom": "LAVABO L-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z5114", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable & Eau Froide Potable & Évent", "FT / DA": "FT-MEC013-A", "DÉBIT LIQUIDE (L/S)": "5,7"}},
-            {"nom": "PLINTHES DE CHAUFFAGE P-113", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "1,4", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "LONGUEUR (MM)": "1524", "LONGUEUR CABINET (MM)": "1891", "ARRANGEMENT": "D -> H", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-113A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "52,33", "DIAMÈTRE (MM)": "52,33"}},
-            {"nom": "ROBINET MOTORISÉ RM-113B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC Integrair": "1 Journée de travaux Restante (2026-06-02)", "TAC Barrette": "Suspensions"}}
+            {"nom": "DRAINS DE PLANCHER AS-1", "details": {}},
+            {"nom": "BOÎTIER DE LESSIVEUSE BL-1", "details": {}},
+            {"nom": "CABINETS D'AISANCE CA-1", "details": {}},
+            {"nom": "ÉVIER E-2", "details": {}},
+            {"nom": "LAVABO L-1", "details": {}},
+            {"nom": "PLINTHES DE CHAUFFAGE P-113", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-113A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-113B", "details": {}},
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "110": [
-            {"nom": "CUVE CU-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z1996-24", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable & Eau Froide Potable & Évent", "FT / DA": "FT-MEC010-0"}},
-            {"nom": "PLINTHES DE CHAUFFAGE P-110", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "0,43", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "72", "LONGUEUR (MM)": "610", "LONGUEUR CABINET (MM)": "1200", "ARRANGEMENT": "B", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-110", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "27,72", "DIAMÈTRE (MM)": "27,72"}}
+            {"nom": "CUVE CU-1", "details": {}},
+            {"nom": "PLINTHES DE CHAUFFAGE P-110", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-110", "details": {}}
         ],
         "100": [
-            {"nom": "DOUCHE OCULAIRE DO-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "BRADLEY", "MODÈLE": "S19-690", "RÉSEAU DE TUYAUTERIE": "N/A", "FT / DA": "FT-MEC016-A"}},
-            {"nom": "ROBINET MOTORISÉ RM-006", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B209", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "24,20", "DIAMÈTRE (MM)": "24,20"}},
-            {"nom": "ROBINET MOTORISÉ RM-100B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B209", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,14", "PERTE DE PRESSION (KPA)": "52,54", "DIAMÈTRE (MM)": "52,54"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS0801B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "UV-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,14", "PERTE DE PRESSION (KPA)": "16,4", "PUISSANCE (KW)": "5,726022721964", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "65", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-14", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BB1201B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "UV-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "0,6", "PUISSANCE (KW)": "1,253465000606", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "73", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC PSM": "Sortie du plancher", "TAC Integrair": "Thermostats et Détecteurs de mouvements", "TAC Barrette": "Conduit au plancher, Tirage de câbles et Panneau"}}
+            {"nom": "DOUCHE OCULAIRE DO-1", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-006", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-100B", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-08", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-14", "details": {}},
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "102": [
-            {"nom": "ÉVIER E-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ELKAY", "MODÈLE": "DSE133221-D1125", "RÉSEAU DE TUYAUTERIE": "Eau Chaude Potable & Eau Froide Potable & Évent", "FT / DA": "FT-MEC012-0", "DÉBIT LIQUIDE (L/S)": "6,8"}},
-            {"nom": "PLINTHES DE CHAUFFAGE P-102", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "1,12", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "LONGUEUR (MM)": "1219", "LONGUEUR CABINET (MM)": "3346", "ARRANGEMENT": "D -> H", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-102A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B209", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "24,27", "DIAMÈTRE (MM)": "24,27"}},
-            {"nom": "ROBINET MOTORISÉ RM-102B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,20", "PERTE DE PRESSION (KPA)": "46,19", "DIAMÈTRE (MM)": "46,19"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS0601B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "UV-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "3,3", "PUISSANCE (KW)": "1,558258921726", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "72", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC PSM": "Carré-à-Rond Serpentin", "TAC Integrair": "Thermostats et Détecteurs de mouvements"}}
+            {"nom": "ÉVIER E-1", "details": {}},
+            {"nom": "PLINTHES DE CHAUFFAGE P-102", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-102A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-102B", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-09", "details": {}},
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "103": [
-            {"nom": "PLINTHES DE CHAUFFAGE P-103A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "1,12", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "LONGUEUR (MM)": "1219", "LONGUEUR CABINET (MM)": "1947", "ARRANGEMENT": "D -> H", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "PLINTHES DE CHAUFFAGE P-103B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "1,12", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "LONGUEUR (MM)": "1219", "LONGUEUR CABINET (MM)": "3601", "ARRANGEMENT": "D -> H", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-103A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B209", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "27,85", "DIAMÈTRE (MM)": "27,85"}},
-            {"nom": "ROBINET MOTORISÉ RM-103B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "33,72", "DIAMÈTRE (MM)": "33,72"}},
-            {"nom": "ROBINET MOTORISÉ RM-103C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "33,72", "DIAMÈTRE (MM)": "33,72"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-10", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS0701B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "UV-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "3,9", "PUISSANCE (KW)": "2,364497457304", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "70", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC Tuyauterie": "Annotations et Balancement", "TAC PSM": "Diffuseurs et Grilles à compléter", "TAC Integrair": "Thermostats et Détecteurs de mouvements", "TAC Barrette": "QMT-VCFF à débloquer par Télécom"}}
+            {"nom": "PLINTHES DE CHAUFFAGE P-103A", "details": {}},
+            {"nom": "PLINTHES DE CHAUFFAGE P-103B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-103A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-103B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-103C", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-10", "details": {}},
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "104": [
-            {"nom": "PLINTHES DE CHAUFFAGE P-104B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,05", "PUISSANCE (KW)": "1,68", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "67", "LONGUEUR (MM)": "1828", "LONGUEUR CABINET (MM)": "2671", "ARRANGEMENT": "D -> H", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-104A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B208", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "65,29", "DIAMÈTRE (MM)": "65,29"}},
-            {"nom": "ROBINET MOTORISÉ RM-104B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,05", "PERTE DE PRESSION (KPA)": "27,72", "DIAMÈTRE (MM)": "27,72"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-11", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS0601B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "UV-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "3,0", "PUISSANCE (KW)": "1,52103889482", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "72", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "TAC Sous-Traitants ", "details": {}}
+            {"nom": "PLINTHES DE CHAUFFAGE P-104B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-104A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-104B", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-11", "details": {}},
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "105": [
-            {"nom": "PLINTHES DE CHAUFFAGE P-105", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "0,7", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "69", "LONGUEUR (MM)": "762", "LONGUEUR CABINET (MM)": "1220", "ARRANGEMENT": "D -> H", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-105", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "27,72", "DIAMÈTRE (MM)": "27,72"}}
+            {"nom": "PLINTHES DE CHAUFFAGE P-105", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-105", "details": {}}
         ],
         "107": [
-            {"nom": "PLINTHES DE CHAUFFAGE P-107A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "1,4", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "LONGUEUR (MM)": "1524", "LONGUEUR CABINET (MM)": "4101", "ARRANGEMENT": "D -> H", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "PLINTHES DE CHAUFFAGE P-107B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "1,4", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "LONGUEUR (MM)": "1524", "LONGUEUR CABINET (MM)": "3738", "ARRANGEMENT": "D -> H", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-107A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B209", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "24,20", "DIAMÈTRE (MM)": "24,20"}},
-            {"nom": "ROBINET MOTORISÉ RM-107B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "52,33", "DIAMÈTRE (MM)": "52,33"}},
-            {"nom": "ROBINET MOTORISÉ RM-107C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "52,33", "DIAMÈTRE (MM)": "52,33"}},
-            {"nom": "ROBINET MOTORISÉ RM-107D", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-12", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BB1001B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "UV-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "0,6", "PUISSANCE (KW)": "1,035420118574", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "74", "Vérification": "RIC-BAT632-7"}}
+            {"nom": "PLINTHES DE CHAUFFAGE P-107A", "details": {}},
+            {"nom": "PLINTHES DE CHAUFFAGE P-107B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-107A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-107B", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-107C", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-107D", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-12", "details": {}}
         ],
         "109": [
-            {"nom": "PLINTHES DE CHAUFFAGE P-109", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "0,43", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "72", "LONGUEUR (MM)": "610", "LONGUEUR CABINET (MM)": "1900", "ARRANGEMENT": "B", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-109A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "B209", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "24,20", "DIAMÈTRE (MM)": "24,20"}},
-            {"nom": "ROBINET MOTORISÉ RM-109B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "27,72", "DIAMÈTRE (MM)": "27,72"}},
-            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-13", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BB0901C", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "UV-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,09", "PERTE DE PRESSION (KPA)": "0,6", "PUISSANCE (KW)": "0,579987663362", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "75", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC Tuyauterie": "Nettoyage et Installation plaques finitions Plinthes", "TAC Integrair": "Thermostats et Détecteurs de mouvements"}}
+            {"nom": "PLINTHES DE CHAUFFAGE P-109", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-109A", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-109B", "details": {}},
+            {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-13", "details": {}},
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "111": [
-            {"nom": "PLINTHES DE CHAUFFAGE P-111", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "0,43", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "72", "LONGUEUR (MM)": "610", "LONGUEUR CABINET (MM)": "1410", "ARRANGEMENT": "B", "Vérification": "RI-LFG-20-2"}},
-            {"nom": "ROBINET MOTORISÉ RM-111", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "27,72", "DIAMÈTRE (MM)": "27,72"}},
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC PSM": "VCFF à Installer", "TAC Integrair": "Thermostats et Détecteurs de mouvements"}}
+            {"nom": "PLINTHES DE CHAUFFAGE P-111", "details": {}},
+            {"nom": "ROBINET MOTORISÉ RM-111", "details": {}},
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "101": [
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC PSM": "Air Climatisé", "TAC Integrair": "Thermostats et Détecteurs de mouvements", "TAC Barrette": "Conduit au plancher et Tirage de câbles Télécom"}}
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "112": [
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC Integrair": "Thermostats et Détecteurs de mouvements", "TAC Barrette": "Conduit au plancher"}}
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "115": [
-            {"nom": "TAC Sous-Traitants ", "details": {"TAC Barrette": "Luminaires dans Plénum, Éclairage, 3 Conduits et Coupe-feu"}}
+            {"nom": "TAC Sous-Traitants X", "details": {}}
         ],
         "M002": [
-            {"nom": "VENTILATEUR ", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "Arbre"}}
+            {"nom": "VENTILATEUR ", "details": {}}
         ]
     }
 };
