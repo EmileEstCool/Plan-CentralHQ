@@ -361,18 +361,32 @@ function exportToPDF() {
     });
 
     const tableBody = [];
+    const seen = new Set();
+
     for (const [floor, rooms] of Object.entries(allData)) {
         for (const [room, equipments] of Object.entries(rooms)) {
             for (const [eqName, dataSaved] of Object.entries(equipments)) {
+
+                const equipLabel = dataSaved.meta?.equipement || eqName;
+                const location = `Salle ${dataSaved.meta?.piece || ""}`;
+
                 if (dataSaved.meta && dataSaved.details) {
+
+                    let first = true;
+
                     for (const [propKey, propData] of Object.entries(dataSaved.details)) {
+
+                        const uniqueKey = `${location}_${equipLabel}`;
+
                         tableBody.push([
-                            `Niv ${dataSaved.meta.niveau.replace('niveau','')} - P.${dataSaved.meta.piece}`,
-                            dataSaved.meta.equipement,
+                            first ? location : "",
+                            equipLabel,
                             propData.nomOriginal || propKey,
                             propData.etat || "-",
                             propData.commentaire || ""
                         ]);
+
+                        first = false;
                     }
                 }
             }
