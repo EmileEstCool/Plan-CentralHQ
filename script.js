@@ -360,7 +360,7 @@ function exportToPDF() {
         allData[lvl][rm][eqName] = item.data;
     });
 
-	const tableBody = [];
+	const groups = [];
 
     for (const [floor, rooms] of Object.entries(allData)) {
         for (const [room, equipments] of Object.entries(rooms)) {
@@ -370,27 +370,32 @@ function exportToPDF() {
                 const location = `Salle ${dataSaved.meta?.piece || room}`;
 
                 if (dataSaved.meta && dataSaved.details) {
-
-                    let first = true;
-
+                    const rows = [];
                     for (const [propKey, propData] of Object.entries(dataSaved.details)) {
-
-                        tableBody.push([
-                            first ? location : "",
-                            first ? equipLabel : "",
+                        rows.push([
                             propData.nomOriginal || propKey,
                             propData.etat || "-",
                             propData.commentaire || ""
                         ]);
-
-                        first = false;
                     }
+                    groups.push({ location, equipLabel, rows });
                 }
             }
         }
     }
 
-    tableBody.sort((a, b) => a[0].localeCompare(b[0]));
+    groups.sort((a, b) => a.location.localeCompare(b.location));
+
+    const tableBody = [];
+    groups.forEach(group => {
+        group.rows.forEach((row, idx) => {
+            tableBody.push([
+                idx === 0 ? group.location : "",
+                idx === 0 ? group.equipLabel : "",
+                ...row
+            ]);
+        });
+    });
 
     if (tableBody.length === 0) {
         alert("Aucune donnée disponible pour générer le rapport.");
