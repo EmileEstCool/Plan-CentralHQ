@@ -360,15 +360,14 @@ function exportToPDF() {
         allData[lvl][rm][eqName] = item.data;
     });
 
-    const tableBody = [];
-    const seen = new Set();
+	const tableBody = [];
 
     for (const [floor, rooms] of Object.entries(allData)) {
         for (const [room, equipments] of Object.entries(rooms)) {
             for (const [eqName, dataSaved] of Object.entries(equipments)) {
 
                 const equipLabel = dataSaved.meta?.equipement || eqName;
-                const location = `Salle ${dataSaved.meta?.piece || ""}`;
+                const location = `Salle ${dataSaved.meta?.piece || room}`;
 
                 if (dataSaved.meta && dataSaved.details) {
 
@@ -376,11 +375,9 @@ function exportToPDF() {
 
                     for (const [propKey, propData] of Object.entries(dataSaved.details)) {
 
-                        const uniqueKey = `${location}_${equipLabel}`;
-
                         tableBody.push([
                             first ? location : "",
-                            equipLabel,
+                            first ? equipLabel : "",
                             propData.nomOriginal || propKey,
                             propData.etat || "-",
                             propData.commentaire || ""
