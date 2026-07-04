@@ -1,4 +1,4 @@
-// Fichier généré le 2026-07-04 14:53:04
+// Fichier généré le 2026-07-04 14:54:44
 const data = {
     "niveau1": {
         "003": [
@@ -119,7 +119,8 @@ const data = {
             {"nom": "ÉCHANGEUR ", "code": "", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "TOROMONT", "MODÈLE": "AB-2006", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "HQ-Toromont-Éch-3512"}},
             {"nom": "Ventilateur VA-03", "code": "VA-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-9", "MODÈLE": "ACME XD137EC"}},
             {"nom": "Unité de ventilation UV-08", "code": "UV-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB3", "MODÈLE": "Dakin CAH024GVBM"}},
-            {"nom": "Unité de ventilation UV-09", "code": "UV-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB3", "MODÈLE": "Dakin CAH024GVBM"}}
+            {"nom": "Unité de ventilation UV-09", "code": "UV-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB3", "MODÈLE": "Dakin CAH024GVBM"}},
+            {"nom": "Panneau PE-7", "code": "PE-7", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité"}}
         ],
         "021": [
             {"nom": "AÉROTHERME A-021", "code": "A-021", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "Prédécesseur Électrique": "PE-4", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
