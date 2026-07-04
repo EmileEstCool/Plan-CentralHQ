@@ -1,4 +1,4 @@
-// Fichier généré le 2026-07-04 14:00:37
+// Fichier généré le 2026-07-04 14:05:01
 const data = {
     "niveau1": {
         "003": [
@@ -117,7 +117,7 @@ const data = {
             {"nom": "ROBINET MOTORISÉ RM-018H", "code": "RM-018H", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F6100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "5,05", "PERTE DE PRESSION (KPA)": "0,12", "DIAMÈTRE (MM)": "0,12"}},
             {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-03", "code": "SC-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS1001C", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-03", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,18", "PERTE DE PRESSION (KPA)": "17,0", "PUISSANCE (KW)": "6,11785875325", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "68", "Vérification": "RIC-BAT632-7"}},
             {"nom": "ÉCHANGEUR ", "code": "", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "TOROMONT", "MODÈLE": "AB-2006", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "HQ-Toromont-Éch-3512"}},
-            {"nom": "Ventilateur VA-03", "code": "VA-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-9", "MODÈLE": "ACME XD137EC"}},
+            {"nom": "Ventilateur VA-03", "code": "VA-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-9", "MODÈLE": "ACME XD137EC", "Prérequis": "PE-9, PD-A3, P-054"}},
             {"nom": "Unité de ventilation UV-08", "code": "UV-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB3", "MODÈLE": "Dakin CAH024GVBM"}},
             {"nom": "Unité de ventilation UV-09", "code": "UV-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB3", "MODÈLE": "Dakin CAH024GVBM"}}
         ],
