@@ -345,6 +345,7 @@ function saveReport(event, floor, room, eqIndex) {
     const report = {};
 
     for (const [propName, propValue] of Object.entries(eq.details)) {
+        if (propName === 'Prérequis') continue;
         const firebaseSafeKey = sanitizeKey(propName);
         const safeProp = sanitizeId(propName);
         let etat = "";
