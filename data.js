@@ -1,4 +1,4 @@
-// Fichier généré le 2026-07-04 14:55:18
+// Fichier généré le 2026-07-05 14:21:41
 const data = {
     "niveau1": {
         "003": [
@@ -24,9 +24,10 @@ const data = {
             {"nom": "ROBINET MOTORISÉ RM-007F", "code": "RM-007F", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-J", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,32", "PERTE DE PRESSION (KPA)": "60,33", "DIAMÈTRE (MM)": "60,33"}},
             {"nom": "ROBINET MOTORISÉ RM-007G", "code": "RM-007G", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "51,09", "DIAMÈTRE (MM)": "51,09"}},
             {"nom": "ROBINET MOTORISÉ RM-007H", "code": "RM-007H", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "51,09", "DIAMÈTRE (MM)": "51,09"}},
-            {"nom": "LAVE AUTO ", "code": "", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique de Prod", "MARQUE": "Mrs CLEAN", "MODÈLE": "2000"}},
+            {"nom": "LAVE AUTO ", "code": "", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique de Prod", "Prédécesseur Électrique": "0", "MARQUE": "Mrs CLEAN", "MODÈLE": "2000"}},
             {"nom": "Ventilateur VE-10", "code": "VE-10", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-5", "MODÈLE": "ACME XD137EC"}},
-            {"nom": "Unité de ventilation UV-01", "code": "UV-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-5", "MODÈLE": "ALDES PA20"}}
+            {"nom": "Unité de ventilation UV-01", "code": "UV-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-5", "MODÈLE": "ALDES PA20"}},
+            {"nom": "Panneau de Distribution PE-5", "code": "PE-5", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PE-1"}}
         ],
         "011": [
             {"nom": "AÉROTHERME A-011", "code": "A-011", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "Prédécesseur Électrique": "PE-4", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
@@ -79,7 +80,8 @@ const data = {
             {"nom": "ÉCHANGEUR ", "code": "", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "TOROMONT", "MODÈLE": "AB-2005", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "HQ-Toromont-Éch-3508"}},
             {"nom": "Ventilateur VA-01", "code": "VA-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "Prédécesseur Électrique": "PE-7", "MARQUE": "Arbre", "MODÈLE": "ACME XD137EC"}},
             {"nom": "Unité de ventilation UV-04", "code": "UV-04", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB1", "MODÈLE": "Dakin CAH024GVBM"}},
-            {"nom": "Unité de ventilation UV-05", "code": "UV-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB1", "MODÈLE": "Dakin CAH024GVBM"}}
+            {"nom": "Unité de ventilation UV-05", "code": "UV-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB1", "MODÈLE": "Dakin CAH024GVBM"}},
+            {"nom": "Panneau de Distribution PE-7", "code": "PE-7", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-A1"}}
         ],
         "017": [
             {"nom": "AÉROTHERME A-017A", "code": "A-017A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "Prédécesseur Électrique": "PE-8", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
@@ -96,10 +98,11 @@ const data = {
             {"nom": "ROBINET MOTORISÉ RM-017G", "code": "RM-017G", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F6100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "5,05", "PERTE DE PRESSION (KPA)": "0,12", "DIAMÈTRE (MM)": "0,12"}},
             {"nom": "ROBINET MOTORISÉ RM-017H", "code": "RM-017H", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F6100HD", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "DÉBIT LIQUIDE (L/S)": "5,05", "PERTE DE PRESSION (KPA)": "0,12", "DIAMÈTRE (MM)": "0,12"}},
             {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-02", "code": "SC-02", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BS1001C", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-02", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,18", "PERTE DE PRESSION (KPA)": "17,0", "PUISSANCE (KW)": "6,11785875325", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "68", "Vérification": "RIC-BAT632-7"}},
-            {"nom": "ÉCHANGEUR ", "code": "", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "TOROMONT", "MODÈLE": "AB-2005", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "HQ-Toromont-Éch-3508"}},
+            {"nom": "ÉCHANGEUR ", "code": "", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "Prédécesseur Électrique": "0", "MARQUE": "TOROMONT", "MODÈLE": "AB-2005", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "HQ-Toromont-Éch-3508"}},
             {"nom": "Ventilateur VA-02", "code": "VA-02", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-8", "MODÈLE": "ACME XD137EC"}},
             {"nom": "Unité de ventilation UV-06", "code": "UV-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB2", "MODÈLE": "Dakin CAH024GVBM"}},
-            {"nom": "Unité de ventilation UV-07", "code": "UV-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB2", "MODÈLE": "Dakin CAH024GVBM"}}
+            {"nom": "Unité de ventilation UV-07", "code": "UV-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB2", "MODÈLE": "Dakin CAH024GVBM"}},
+            {"nom": "Panneau de Distribution PE-8", "code": "PE-8", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-A2"}}
         ],
         "018": [
             {"nom": "AÉROTHERME A-018A", "code": "A-018A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "Prédécesseur Électrique": "PE-9", "MARQUE": "ROSEMEX", "MODÈLE": "H-32", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,16", "DÉBIT AIR (L/S)": "342,00", "PUISSANCE (KW)": "6,533433541854", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,08", "Vérification": "RIC-BAT632-9"}},
@@ -120,7 +123,7 @@ const data = {
             {"nom": "Ventilateur VA-03", "code": "VA-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-9", "MODÈLE": "ACME XD137EC"}},
             {"nom": "Unité de ventilation UV-08", "code": "UV-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB3", "MODÈLE": "Dakin CAH024GVBM"}},
             {"nom": "Unité de ventilation UV-09", "code": "UV-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB3", "MODÈLE": "Dakin CAH024GVBM"}},
-            {"nom": "Panneau PE-7", "code": "PE-7", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité"}}
+            {"nom": "Panneau de Distribution PE-9", "code": "PE-9", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-A3"}}
         ],
         "021": [
             {"nom": "AÉROTHERME A-021", "code": "A-021", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "Prédécesseur Électrique": "PE-4", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
@@ -184,7 +187,9 @@ const data = {
             {"nom": "FOSSE SEPTIQUE FS-1", "code": "FS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ROTO-SPEC", "MODÈLE": "RS-6003R-18", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC001-0", "DÉBIT LIQUIDE (L/S)": "1,66", "VOLUME RÉSERVOIR (L)": "2424"}}
         ],
         "012": [
-            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "code": "RA-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z1341", "RÉSEAU DE TUYAUTERIE": "Eau Froide Service", "FT / DA": "FT-MEC017-0"}}
+            {"nom": "ROBINET PRISE D'EAU INTÉRIEUR RA-1", "code": "RA-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "Z1341", "RÉSEAU DE TUYAUTERIE": "Eau Froide Service", "FT / DA": "FT-MEC017-0"}},
+            {"nom": "Panneau de Distribution PD-2", "code": "PD-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-1"}},
+            {"nom": "Panneau de Distribution PE-4", "code": "PE-4", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PE-1"}}
         ]
     },
     "niveau2": {
@@ -209,13 +214,22 @@ const data = {
             {"nom": "TAC Sous-Traitants ", "code": "", "details": {"TAC Integrair": "Thermostats et Détecteurs de mouvements", "TAC Barrette": "Tirage de Câbles et Installation Fixtures Fluorescentes"}},
             {"nom": "Ventilateur VA-08", "code": "VA-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-6", "MODÈLE": "ACME XD120EC"}},
             {"nom": "Ventilateur VE-08", "code": "VE-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-6", "MODÈLE": "ACME XD120EC"}},
-            {"nom": "Unité de ventilation UV-03", "code": "UV-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "MODÈLE": "Dakin CAH006GDGM"}}
+            {"nom": "Unité de ventilation UV-03", "code": "UV-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "CCM-1", "MODÈLE": "Dakin CAH006GDGM"}},
+            {"nom": "Panneau de Distribution PE-6", "code": "PE-6", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PE-1"}},
+            {"nom": "Centre de Commande de Moteurs CCM-1", "code": "CCM-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-1"}}
         ],
         "108": [
             {"nom": "AÉROTHERME A-108", "code": "A-108", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "Prédécesseur Électrique": "PE-2", "MARQUE": "ROSEMEX", "MODÈLE": "H-18", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-005-0", "DÉBIT LIQUIDE (L/S)": "0,10", "DÉBIT AIR (L/S)": "217,00", "PUISSANCE (KW)": "4,022107474472", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "MOTEUR (HP)": "0,05", "Vérification": "RIC-BAT632-9"}},
             {"nom": "ROBINET MOTORISÉ RM-108", "code": "RM-108", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "26,89", "DIAMÈTRE (MM)": "26,89"}},
             {"nom": "Ventilateur VA-09", "code": "VA-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-2", "MODÈLE": "ACME XD161EC"}},
-            {"nom": "Ventilateur VE-09", "code": "VE-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-2", "MODÈLE": "ACME XD161EC"}}
+            {"nom": "Ventilateur VE-09", "code": "VE-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-2", "MODÈLE": "ACME XD161EC"}},
+            {"nom": "Panneau de Distribution P-054", "code": "P-054", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PM-1"}},
+            {"nom": "Panneau de Distribution PD-1", "code": "PD-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "P-054"}},
+            {"nom": "Panneau de Distribution PE-1", "code": "PE-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-1"}},
+            {"nom": "Panneau de Distribution PE-2", "code": "PE-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PE-1"}},
+            {"nom": "Panneau de Distribution PE-3", "code": "PE-3", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-1"}},
+            {"nom": "Panneau de Distribution P-055", "code": "P-055", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PM-2"}},
+            {"nom": "Panneau de Distribution PEU-1", "code": "PEU-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "P-055"}}
         ],
         "113": [
             {"nom": "DRAINS DE PLANCHER AS-1", "code": "AS-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Plomberie", "MARQUE": "ZURN", "MODÈLE": "ZN415-B5", "RÉSEAU DE TUYAUTERIE": "Évent", "FT / DA": "FT-MEC014-0"}},
@@ -293,7 +307,8 @@ const data = {
             {"nom": "Ventilateur VE-12", "code": "VE-12", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-6", "MODÈLE": "ACME XD100EC"}}
         ],
         "101": [
-            {"nom": "TAC Sous-Traitants ", "code": "", "details": {"TAC PSM": "Air Climatisé", "TAC Integrair": "Thermostats et Détecteurs de mouvements", "TAC Barrette": "Conduit au plancher et Tirage de câbles Télécom"}}
+            {"nom": "TAC Sous-Traitants ", "code": "", "details": {"Prédécesseur Électrique": "0", "TAC PSM": "Air Climatisé", "TAC Integrair": "Thermostats et Détecteurs de mouvements", "TAC Barrette": "Conduit au plancher et Tirage de câbles Télécom"}},
+            {"nom": "Panneau de Distribution PE-11", "code": "PE-11", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PE-1"}}
         ],
         "112": [
             {"nom": "TAC Sous-Traitants ", "code": "", "details": {"TAC Integrair": "Thermostats et Détecteurs de mouvements", "TAC Barrette": "Conduit au plancher"}}
