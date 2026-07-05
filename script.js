@@ -279,12 +279,13 @@ function openForm(floor, roomNumber, index) {
 function renderForm(savedData, floor, roomNumber, index) {
     const panel = document.getElementById("panel");
     const eq = data[floor][roomNumber][index];
-    const eqSaved = savedData.details || {}; 
+    const eqSaved = savedData.details || {};
 
     const missing = getMissingVpoPrereqs(eq);
     const prereqInfo = missing.length > 0
-        ? `<div style="background:#fdecea;border:1px solid #d32f2f;border-radius:8px;padding:8px;margin-bottom:12px;color:#d32f2f;font-size:13px;">⚠ Prérequis non conformes : ${missing.join(', ')}</div>`
+        ? `<div style="background:#fdecea;border:1px solid #d32f2f;border-radius:8px;padding:8px;margin-bottom:12px;color:#d32f2f;font-size:13px;">⚠ Prérequis non conformes : ${missing.join(', ')} — la mise sous tension (Date Début VPO) est bloquée jusqu'à ce que ce soit réglé.</div>`
         : (eq.details['Prérequis'] && eq.details['Prérequis'] !== '-' ? `<div style="color:#2e7d32;font-size:13px;margin-bottom:12px;">✓ Tous les prérequis sont conformes</div>` : '');
+
     let html = `
         <h3 class="room-title" style="line-height: 1.3;">
             PIÈCE ${roomNumber} <br>
@@ -297,21 +298,31 @@ function renderForm(savedData, floor, roomNumber, index) {
 
     for (const [propName, propValue] of Object.entries(eq.details)) {
         if (propName === 'Prérequis') continue;
+
         const safeProp = sanitizeId(propName);
         const firebaseSafeKey = sanitizeKey(propName);
-        
+
         const prevStatus = eqSaved[firebaseSafeKey] ? eqSaved[firebaseSafeKey].etat : "";
         const prevComment = eqSaved[firebaseSafeKey] ? eqSaved[firebaseSafeKey].commentaire : "";
 
+        // Seule "Date Début VPO" est bloquée par les prérequis - tout le reste reste libre
+        const isEnergizedField = (propName === 'Date Début VPO');
+        const isLocked = isEnergizedField && missing.length > 0;
+        const disabledAttr = isLocked ? 'disabled' : '';
+        const lockNote = isLocked
+            ? `<div style="color:#d32f2f;font-size:11px;margin-top:2px;">🔒 Bloqué — manque: ${missing.join(', ')}</div>`
+            : '';
+
         html += `
-        <div class="equipment">
+        <div class="equipment" style="${isLocked ? 'opacity:0.6;' : ''}">
           <strong>${propName} :</strong> ${propValue}
           <div class="radio-group-horizontal">
-             <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="C" ${prevStatus === 'C' ? 'checked' : ''}> C</label>
-             <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="NC" ${prevStatus === 'NC' ? 'checked' : ''}> NC</label>
-             <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="N/A" ${prevStatus === 'N/A' || prevStatus === 'NA' ? 'checked' : ''}> N/A</label>
+             <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="C" ${prevStatus === 'C' ? 'checked' : ''} ${disabledAttr}> C</label>
+             <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="NC" ${prevStatus === 'NC' ? 'checked' : ''} ${disabledAttr}> NC</label>
+             <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="N/A" ${prevStatus === 'N/A' || prevStatus === 'NA' ? 'checked' : ''} ${disabledAttr}> N/A</label>
           </div>
-          <textarea id="comment_${safeProp}" placeholder="Notes...">${prevComment}</textarea>
+          ${lockNote}
+          <textarea id="comment_${safeProp}" placeholder="Notes..." ${isLocked ? 'disabled' : ''}>${prevComment}</textarea>
         </div>`;
     }
 
