@@ -11,6 +11,37 @@ try {
 
 // Initialisation des variables globales
 let dataCache = {};
+let vpoCodeIndex = {};
+function buildVpoCodeIndex() {
+    if (typeof data === 'undefined') return;
+    for (const floor in data) {
+        for (const room in data[floor]) {
+            data[floor][room].forEach((eq, i) => {
+                if (eq.code) vpoCodeIndex[eq.code.trim()] = { floor, room, index: i };
+            });
+        }
+    }
+}
+function isEquipVpoConforme(code) {
+    const ref = vpoCodeIndex[code];
+    if (!ref) return false;
+    const eq = data[ref.floor][ref.room][ref.index];
+    const safeName = sanitizeKey(eq.nom);
+    const allInspections = JSON.parse(localStorage.getItem('all_inspections')) || {};
+    const saved = allInspections[ref.floor] && allInspections[ref.floor][ref.room] && allInspections[ref.floor][ref.room][safeName];
+    if (!saved) return false;
+    const detailsArray = Object.values(saved.details || {});
+    const hasNC = detailsArray.some(d => d.etat === "NC" && d.nomOriginal !== 'Prérequis');
+    const total = Object.keys(eq.details).filter(k => k !== 'Prérequis').length;
+    const filled = detailsArray.filter(d => d.etat === "C" && d.nomOriginal !== 'Prérequis').length;
+    return !hasNC && filled >= total;
+}
+function getMissingVpoPrereqs(eq) {
+    const prereqStr = eq.details['Prérequis'];
+    if (!prereqStr || prereqStr.trim() === '' || prereqStr.trim() === '-') return [];
+    const codes = prereqStr.split(',').map(c => c.trim()).filter(Boolean);
+    return codes.filter(c => !isEquipVpoConforme(c));
+}
 let isAppOnline = navigator.onLine;
 
 // --- CETTE FONCTION S'EXÉCUTE QUAND LA PAGE EST PRÊTE ---
@@ -153,6 +184,8 @@ function showEquipments(floor, roomNumber) {
     const offlineQueue = JSON.parse(localStorage.getItem('offlineQueue')) || [];
     const allInspections = JSON.parse(localStorage.getItem('all_inspections')) || {};
 
+    if (Object.keys(vpoCodeIndex).length === 0) buildVpoCodeIndex();
+
     equipments.forEach((eq, index) => {
         const safeEqName = sanitizeKey(eq.nom);
         const firebasePath = 'inspections/' + floor + '/' + roomNumber + '/' + safeEqName;
@@ -196,10 +229,13 @@ function showEquipments(floor, roomNumber) {
                 statusSymbol = "..."; 
             }
         }
-
+        const missingPrereqs = getMissingVpoPrereqs(eq);
+        const prereqBadge = missingPrereqs.length > 0
+        ? `<span class="status-icon" style="background:#d32f2f;color:white;font-size:11px;" title="Manque: ${missingPrereqs.join(', ')}">🔒 ${missingPrereqs.length}</span>`
+        : '';
         html += `<button class="equipment-btn" onclick="openForm('${floor}','${roomNumber}', ${index})">
                     <span>${eq.nom}</span>
-                    <span class="status-icon ${statusClass}">${statusSymbol}</span>
+                    <span class="status-icon ${statusClass}">${statusSymbol}">${prereqBadge}</span>
                  </button><br><br>`;
     });
     panel.innerHTML = html;
@@ -250,16 +286,22 @@ function renderForm(savedData, floor, roomNumber, index) {
     const eq = data[floor][roomNumber][index];
     const eqSaved = savedData.details || {}; 
 
+    const missing = getMissingVpoPrereqs(eq);
+    const prereqInfo = missing.length > 0
+        ? `<div style="background:#fdecea;border:1px solid #d32f2f;border-radius:8px;padding:8px;margin-bottom:12px;color:#d32f2f;font-size:13px;">⚠ Prérequis non conformes : ${missing.join(', ')}</div>`
+        : (eq.details['Prérequis'] && eq.details['Prérequis'] !== '-' ? `<div style="color:#2e7d32;font-size:13px;margin-bottom:12px;">✓ Tous les prérequis sont conformes</div>` : '');
     let html = `
         <h3 class="room-title" style="line-height: 1.3;">
             PIÈCE ${roomNumber} <br>
             <span style="font-size: 0.65em; color: #7f8c8d;">${eq.nom}</span>
         </h3>
+        ${prereqInfo}
         <button class="back-btn" onclick="showEquipments('${floor}','${roomNumber}')">⬅ Retour</button>
         <form id="inspectionForm" style="margin-top:20px;">
     `;
 
     for (const [propName, propValue] of Object.entries(eq.details)) {
+        if (propName === 'Prérequis') continue;
         const safeProp = sanitizeId(propName);
         const firebaseSafeKey = sanitizeKey(propName);
         
