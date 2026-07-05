@@ -206,37 +206,32 @@ function showEquipments(floor, roomNumber) {
             statusSymbol = "💾";
 
         } else if (savedData) {
+                    const detailsArray = Object.values(savedData.details || {});
+                    const hasNC = detailsArray.some(d => d.etat === "NC" && d.nomOriginal !== 'Prérequis');
+                    const totalProps = Object.keys(eq.details).filter(k => k !== 'Prérequis').length;
+                    const filledProps = detailsArray.filter(d => d.etat === "C" && d.nomOriginal !== 'Prérequis').length;
 
-	    const detailsArray = Object.values(savedData.details || {});
-            const hasNC = detailsArray.some(d => d.etat === "NC");
-            const totalProps = Object.keys(eq.details).length;
-            const filledProps = detailsArray.filter(d => d.etat && d.etat !== "").length;
-            const detailsArray = Object.values(savedData.details || {});
-            const hasNC = detailsArray.some(d => d.etat === "NC" && d.nomOriginal !== 'Prérequis');
-            const totalProps = Object.keys(eq.details).filter(k => k !== 'Prérequis').length;
-            const filledProps = detailsArray.filter(d => d.etat && d.etat !== "" && d.nomOriginal !== 'Prérequis').length;
-            if (hasNC) {
-                // ROUGE: Au moins un point NC
-                statusClass = "status-red";
-                statusSymbol = "!";
-            } else if (filledProps >= totalProps) {
-                // VERT: Tout est coché et aucun NC
-                statusClass = "status-green";
-                statusSymbol = "✓";
-            } else {
-                // ORANGE: Partiellement rempli, aucun NC pour l'instant
-                statusClass = "status-orange";
-                statusSymbol = "..."; 
-            }
-        }
-        const missingPrereqs = getMissingVpoPrereqs(eq);
-        const prereqBadge = missingPrereqs.length > 0
-        ? `<span class="status-icon" style="background:#d32f2f;color:white;font-size:11px;" title="Manque: ${missingPrereqs.join(', ')}">🔒 ${missingPrereqs.length}</span>`
-        : '';
-        html += `<button class="equipment-btn" onclick="openForm('${floor}','${roomNumber}', ${index})">
-                    <span>${eq.nom}</span>
-                    <span class="status-icon ${statusClass}">${statusSymbol}">${prereqBadge}</span>
-                 </button><br><br>`;
+                    if (hasNC) {
+                        statusClass = "status-red";
+                        statusSymbol = "!";
+                    } else if (filledProps >= totalProps) {
+                        statusClass = "status-green";
+                        statusSymbol = "✓";
+                    } else {
+                        statusClass = "status-orange";
+                        statusSymbol = "...";
+                    }
+                }
+
+                const missingPrereqs = getMissingVpoPrereqs(eq);
+                const prereqBadge = missingPrereqs.length > 0
+                    ? `<span class="status-icon" style="background:#d32f2f;color:white;font-size:11px;" title="Manque: ${missingPrereqs.join(', ')}">🔒 ${missingPrereqs.length}</span>`
+                    : '';
+
+                html += `<button class="equipment-btn" onclick="openForm('${floor}','${roomNumber}', ${index})">
+                            <span>${eq.nom}</span>
+                            <span class="status-icon ${statusClass}">${statusSymbol}</span>${prereqBadge}
+                        </button><br><br>`;
     });
     panel.innerHTML = html;
 }
