@@ -178,7 +178,10 @@ function showEquipments(floor, roomNumber) {
             const hasNC = detailsArray.some(d => d.etat === "NC");
             const totalProps = Object.keys(eq.details).length;
             const filledProps = detailsArray.filter(d => d.etat && d.etat !== "").length;
-
+            const detailsArray = Object.values(savedData.details || {});
+            const hasNC = detailsArray.some(d => d.etat === "NC" && d.nomOriginal !== 'Prérequis');
+            const totalProps = Object.keys(eq.details).filter(k => k !== 'Prérequis').length;
+            const filledProps = detailsArray.filter(d => d.etat && d.etat !== "" && d.nomOriginal !== 'Prérequis').length;
             if (hasNC) {
                 // ROUGE: Au moins un point NC
                 statusClass = "status-red";
