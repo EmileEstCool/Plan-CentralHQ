@@ -1,4 +1,4 @@
-// Fichier généré le 2026-07-06 07:29:05
+// Fichier généré le 2026-07-06 07:36:55
 const data = {
     "niveau1": {
         "003": [
@@ -229,7 +229,7 @@ const data = {
             {"nom": "Ventilateur VE-09", "code": "VE-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-2", "MODÈLE": "ACME XD161EC", "Prérequis": "PE-2, DM-VE-09, POT-VE-09"}},
             {"nom": "Panneau de Distribution P-054", "code": "P-054", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Date Début VPO": "2026-07-06", "Prédécesseur Électrique": "PM-1"}},
             {"nom": "Panneau de Distribution PD-1", "code": "PD-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Date Début VPO": "2026-07-07", "Prédécesseur Électrique": "P-054", "Prérequis": "P-054"}},
-            {"nom": "Panneau de Distribution PE-1", "code": "PE-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Date Début VPO": "2026-07-08", "Prédécesseur Électrique": "PD-1", "Prérequis": "PD-1"}},
+            {"nom": "Panneau de Distribution PE-1", "code": "PE-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-1", "Prérequis": "PD-1"}},
             {"nom": "Panneau de Distribution PE-2", "code": "PE-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PE-1", "Prérequis": "PE-1"}},
             {"nom": "Panneau de Distribution PE-3", "code": "PE-3", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-1", "Prérequis": "PD-1"}},
             {"nom": "Panneau de Distribution P-055", "code": "P-055", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PM-2", "Prérequis": "PM-2"}},
