@@ -344,17 +344,28 @@ function saveReport(event, floor, room, eqIndex) {
     const eq = data[floor][room][eqIndex];
     const report = {};
 
-    for (const [propName, propValue] of Object.entries(eq.details)) {
-        if (propName === 'Prérequis') continue;
-        const firebaseSafeKey = sanitizeKey(propName);
-        const safeProp = sanitizeId(propName);
-        let etat = "";
-        const radios = document.getElementsByName(`etat_${safeProp}`);
-        for (const radio of radios) { if (radio.checked) etat = radio.value; }
-        report[firebaseSafeKey] = {
-            nomOriginal: propName, valeur: propValue, etat: etat,
-            commentaire: document.getElementById(`comment_${safeProp}`).value
-        };
+    try {
+        for (const [propName, propValue] of Object.entries(eq.details)) {
+            if (propName === 'Prérequis') continue;
+
+            const firebaseSafeKey = sanitizeKey(propName);
+            const safeProp = sanitizeId(propName);
+            let etat = "";
+            const radios = document.getElementsByName(`etat_${safeProp}`);
+            for (const radio of radios) { if (radio.checked) etat = radio.value; }
+
+            const commentEl = document.getElementById(`comment_${safeProp}`);
+            const commentaire = commentEl ? commentEl.value : "";
+
+            report[firebaseSafeKey] = {
+                nomOriginal: propName, valeur: propValue, etat: etat,
+                commentaire: commentaire
+            };
+        }
+    } catch (err) {
+        console.error("Erreur pendant la construction du rapport:", err);
+        alert("Erreur JS: " + err.message);
+        return;
     }
 
     const finalSave = {
@@ -374,7 +385,8 @@ function saveReport(event, floor, room, eqIndex) {
             btn.textContent = "✓ Enregistré sur Cloud";
             btn.style.backgroundColor = "#27ae60";
             setTimeout(() => { btn.textContent = "Enregistrer"; btn.disabled = false; }, 2000);
-        }).catch(() => {
+        }).catch((err) => {
+            console.error("Erreur Firebase:", err);
             saveToOffline(firebasePath, finalSave, btn);
         });
     } else {
