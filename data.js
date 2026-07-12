@@ -1,4 +1,4 @@
-// Fichier généré le 2026-07-12 16:25:25
+// Fichier généré le 2026-07-12 16:27:34
 const data = {
     "niveau1": {
         "003": [
@@ -28,7 +28,7 @@ const data = {
             {"nom": "Ventilateur VE-10", "code": "VE-10", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-5", "MODÈLE": "ACME XD137EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVE-10, POT-VE-10"}},
             {"nom": "Unité de ventilation UV-01", "code": "UV-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-5", "MODÈLE": "ALDES PA20", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "Ctrl-Int-UV-01"}},
             {"nom": "Panneau de Distribution PE-5", "code": "PE-5", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PE-1", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "PD-1"}},
-            {"nom": "Démarreur Moteur DVE-10", "code": "DVE-10", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-5"}},
+            {"nom": "Démarreur Moteur DVE-10", "code": "DVE-10", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-5"}},
             {"nom": "Variateur de vitesse POT-VE-10", "code": "POT-VE-10", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}},
             {"nom": "Contrôle Interne Ctrl-Int-UV-01", "code": "Ctrl-Int-UV-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité/Contrôle", "Prérequis": "PE-5"}}
         ],
@@ -46,13 +46,13 @@ const data = {
             {"nom": "Ventilateur VE-05", "code": "VE-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-4", "MODÈLE": "ACME XD100EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVE-05, POT-VE-05"}},
             {"nom": "Ventilateur VE-07", "code": "VE-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-4", "MODÈLE": "ACME XD120EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVE-07, POT-VE-07"}},
             {"nom": "Ventilateur VE-13", "code": "VE-13", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-4", "MODÈLE": "ACME XD161EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVE-13, POT-VE-13"}},
-            {"nom": "Démarreur Moteur DVA-07", "code": "DVA-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
+            {"nom": "Démarreur Moteur DVA-07", "code": "DVA-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
             {"nom": "Variateur de vitesse POT-VA-07", "code": "POT-VA-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}},
-            {"nom": "Démarreur Moteur DVE-05", "code": "DVE-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
+            {"nom": "Démarreur Moteur DVE-05", "code": "DVE-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
             {"nom": "Variateur de vitesse POT-VE-05", "code": "POT-VE-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}},
-            {"nom": "Démarreur Moteur DVE-07", "code": "DVE-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
+            {"nom": "Démarreur Moteur DVE-07", "code": "DVE-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
             {"nom": "Variateur de vitesse POT-VE-07", "code": "POT-VE-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}},
-            {"nom": "Démarreur Moteur DVE-13", "code": "DVE-13", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
+            {"nom": "Démarreur Moteur DVE-13", "code": "DVE-13", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
             {"nom": "Variateur de vitesse POT-VE-13", "code": "POT-VE-13", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}}
         ],
         "013": [
@@ -62,7 +62,7 @@ const data = {
             {"nom": "ROBINET MOTORISÉ RM-013B", "code": "RM-013B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "48,33", "DIAMÈTRE (MM)": "48,33"}},
             {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-05", "code": "SC-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BD1102B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-05", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,38", "PERTE DE PRESSION (KPA)": "27,5", "PUISSANCE (KW)": "14,829103475722", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "Vérification d'état": "RIC-BAT632-7"}},
             {"nom": "Ventilateur VA-05", "code": "VA-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-4", "MODÈLE": "ACME XD137EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVA-05, POT-VA-05"}},
-            {"nom": "Démarreur Moteur DVA-05", "code": "DVA-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
+            {"nom": "Démarreur Moteur DVA-05", "code": "DVA-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
             {"nom": "Variateur de vitesse POT-VA-05", "code": "POT-VA-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}}
         ],
         "014": [
@@ -74,9 +74,9 @@ const data = {
             {"nom": "Ventilateur VA-06", "code": "VA-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-4", "MODÈLE": "ACME XD161EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVA-06, POT-VA-06"}},
             {"nom": "Ventilateur VE-06", "code": "VE-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-4", "MODÈLE": "ACME XD161EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVE-06, POT-VE-06"}},
             {"nom": "Permutateur Automatique PM-2", "code": "PM-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "Vérification d'état": "RIC-BAT634-1"}},
-            {"nom": "Démarreur Moteur DVA-06", "code": "DVA-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
+            {"nom": "Démarreur Moteur DVA-06", "code": "DVA-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
             {"nom": "Variateur de vitesse POT-VA-06", "code": "POT-VA-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}},
-            {"nom": "Démarreur Moteur DVE-06", "code": "DVE-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
+            {"nom": "Démarreur Moteur DVE-06", "code": "DVE-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
             {"nom": "Variateur de vitesse POT-VE-06", "code": "POT-VE-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}}
         ],
         "016": [
@@ -101,7 +101,7 @@ const data = {
             {"nom": "Unité de ventilation UV-05", "code": "UV-05", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB1", "MODÈLE": "Dakin CAH024GVBM", "Vérification d'état": "RIC-BAT632-3"}},
             {"nom": "Panneau de Distribution PE-7", "code": "PE-7", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-A1", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "PD-A1"}},
             {"nom": "Panneau de Distribution PD-A1", "code": "PD-A1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "P-054", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "P-054"}},
-            {"nom": "Démarreur Moteur DVA-01", "code": "DVA-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-7"}},
+            {"nom": "Démarreur Moteur DVA-01", "code": "DVA-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-7"}},
             {"nom": "Variateur de vitesse POT-VA-01", "code": "POT-VA-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}}
         ],
         "017": [
@@ -125,7 +125,7 @@ const data = {
             {"nom": "Unité de ventilation UV-07", "code": "UV-07", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB2", "MODÈLE": "Dakin CAH024GVBM", "Vérification d'état": "RIC-BAT632-3"}},
             {"nom": "Panneau de Distribution PE-8", "code": "PE-8", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-A2", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "PD-A2"}},
             {"nom": "Panneau de Distribution PD-A2", "code": "PD-A2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "P-054", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "P-054"}},
-            {"nom": "Démarreur Moteur DVA-02", "code": "DVA-02", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-8"}},
+            {"nom": "Démarreur Moteur DVA-02", "code": "DVA-02", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-8"}},
             {"nom": "Variateur de vitesse POT-VA-02", "code": "POT-VA-02", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}}
         ],
         "018": [
@@ -149,7 +149,7 @@ const data = {
             {"nom": "Unité de ventilation UV-09", "code": "UV-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "TVRB3", "MODÈLE": "Dakin CAH024GVBM", "Vérification d'état": "RIC-BAT632-3"}},
             {"nom": "Panneau de Distribution PE-9", "code": "PE-9", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-A3", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "PD-A3"}},
             {"nom": "Panneau de Distribution PD-A3", "code": "PD-A3", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "P-054", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "P-054"}},
-            {"nom": "Démarreur Moteur DVA-03", "code": "DVA-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-9"}},
+            {"nom": "Démarreur Moteur DVA-03", "code": "DVA-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-9"}},
             {"nom": "Variateur de vitesse POT-VA-03", "code": "POT-VA-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}}
         ],
         "021": [
@@ -245,9 +245,9 @@ const data = {
             {"nom": "Unité de ventilation UV-03 (VE)", "code": "UV-03 (VE)", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "CCM-1", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "EFV-02-UV-03"}},
             {"nom": "Panneau de Distribution PE-6", "code": "PE-6", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PE-1", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "PD-1"}},
             {"nom": "Centre de Commande de Moteurs CCM-1", "code": "CCM-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-1", "Vérification d'état": "RIC-APP16225", "Prérequis": "PD-1"}},
-            {"nom": "Démarreur Moteur DVA-08", "code": "DVA-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-6"}},
+            {"nom": "Démarreur Moteur DVA-08", "code": "DVA-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-6"}},
             {"nom": "Variateur de vitesse POT-VA-08", "code": "POT-VA-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}},
-            {"nom": "Démarreur Moteur DVE-08", "code": "DVE-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-6"}},
+            {"nom": "Démarreur Moteur DVE-08", "code": "DVE-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-6"}},
             {"nom": "Variateur de vitesse POT-VE-08", "code": "POT-VE-08", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}},
             {"nom": "Entrainement à Fréquence Variable EFV-01-UV-03", "code": "EFV-01-UV-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité/Contrôle", "Prérequis": "CCM-1"}},
             {"nom": "Entrainement à Fréquence Variable EFV-02-UV-03", "code": "EFV-02-UV-03", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité/Contrôle", "Prérequis": "CCM-1"}}
@@ -264,9 +264,9 @@ const data = {
             {"nom": "Panneau de Distribution PE-3", "code": "PE-3", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PD-1", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "PD-1"}},
             {"nom": "Panneau de Distribution P-055", "code": "P-055", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "PM-2", "Vérification d'état": "RIC-APP16235", "Prérequis": "PM-2"}},
             {"nom": "Panneau de Distribution PEU-1", "code": "PEU-1", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Prédécesseur Électrique": "P-055", "Vérification d'état": "RIC-BAT634-1", "Prérequis": "P-055"}},
-            {"nom": "Démarreur Moteur DVA-09", "code": "DVA-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-2"}},
+            {"nom": "Démarreur Moteur DVA-09", "code": "DVA-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-2"}},
             {"nom": "Variateur de vitesse POT-VA-09", "code": "POT-VA-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}},
-            {"nom": "Démarreur Moteur DVE-09", "code": "DVE-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-2"}},
+            {"nom": "Démarreur Moteur DVE-09", "code": "DVE-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-2"}},
             {"nom": "Variateur de vitesse POT-VE-09", "code": "POT-VE-09", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}}
         ],
         "113": [
@@ -279,7 +279,7 @@ const data = {
             {"nom": "ROBINET MOTORISÉ RM-113A", "code": "RM-113A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "52,33", "DIAMÈTRE (MM)": "52,33"}},
             {"nom": "ROBINET MOTORISÉ RM-113B", "code": "RM-113B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89"}},
             {"nom": "Ventilateur VE-11", "code": "VE-11", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-6", "MODÈLE": "ACME XD100EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVE-11, POT-VE-11"}},
-            {"nom": "Démarreur Moteur DVE-11", "code": "DVE-11", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-6"}},
+            {"nom": "Démarreur Moteur DVE-11", "code": "DVE-11", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-6"}},
             {"nom": "Variateur de vitesse POT-VE-11", "code": "POT-VE-11", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}}
         ],
         "110": [
@@ -338,7 +338,7 @@ const data = {
             {"nom": "PLINTHES DE CHAUFFAGE P-111", "code": "P-111", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "ROSEMEX", "MODÈLE": "RVS-RAF44C1", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "FT / DA": "FT-MEC-006-A", "DÉBIT LIQUIDE (L/S)": "0,03", "PUISSANCE (KW)": "0,43", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "72", "LONGUEUR SERPENTIN (MM)": "610", "LONGUEUR CABINET (MM)": "1410", "ARRANGEMENT": "B", "Vérification d'état": "RI-LFG-20-2"}},
             {"nom": "ROBINET MOTORISÉ RM-111", "code": "RM-111", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "27,72", "DIAMÈTRE (MM)": "27,72"}},
             {"nom": "Ventilateur VE-12", "code": "VE-12", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-6", "MODÈLE": "ACME XD100EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVE-012, POT-VE-12"}},
-            {"nom": "Démarreur Moteur DVE-012", "code": "DVE-012", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Prérequis": "PE-6"}},
+            {"nom": "Démarreur Moteur DVE-012", "code": "DVE-012", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-6"}},
             {"nom": "Variateur de vitesse POT-VE-12", "code": "POT-VE-12", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}}
         ],
         "101": [
