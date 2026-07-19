@@ -1,4 +1,4 @@
-// Fichier généré le 2026-07-19 13:55:37
+// Fichier généré le 2026-07-19 16:38:43
 const data = {
     "niveau1": {
         "003": [
@@ -73,7 +73,7 @@ const data = {
             {"nom": "SERPENTINS DE CHAUFFAGE HYDRONIQUE SC-06", "code": "SC-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "DAIKIN", "MODÈLE": "5BB0601B", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "SYSTÈME VENTILATION": "VA-06", "FT / DA": "FT-VEN-002rA", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "2,1", "PUISSANCE (KW)": "4,124389280694", "TEMPÉRATURE ENTRÉE (oC)": "77", "TEMPÉRATURE SORTIE (oC)": "66", "Vérification d'état": "RIC-BAT632-7"}},
             {"nom": "Ventilateur VA-06", "code": "VA-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "PE-4", "MODÈLE": "ACME XD161EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVA-06, POT-VA-06"}},
             {"nom": "Ventilateur VE-06", "code": "VE-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Date Début VPO": "2026-07-20", "Prédécesseur Électrique": "PE-4", "MODÈLE": "ACME XD161EC", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "DVE-06, POT-VE-06"}},
-            {"nom": "Permutateur Automatique PM-2", "code": "PM-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "Vérification d'état": "RIC-BAT634-1", "Vérification VPO": "RIC-BAT634-1", "Prérequis": "P-054"}},
+            {"nom": "Permutateur Automatique PM-2", "code": "PM-2", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1", "Vérification VPO": "RIC-BAT634-1", "Prérequis": "P-054"}},
             {"nom": "Démarreur Moteur DVA-06", "code": "DVA-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
             {"nom": "Variateur de vitesse POT-VA-06", "code": "POT-VA-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Vérification d'état": "RIC-BAT632-3"}},
             {"nom": "Démarreur Moteur DVE-06", "code": "DVE-06", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Électricité", "Vérification d'état": "RIC-BAT634-1a", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-4"}},
