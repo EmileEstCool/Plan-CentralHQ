@@ -1,4 +1,4 @@
-// Fichier généré le 2026-08-03 17:24:22
+// Fichier généré le 2026-08-03 17:33:28
 const data = {
     "niveau1": {
         "003": [
@@ -257,7 +257,7 @@ const data = {
             {"nom": "ROBINET MOTORISÉ RM-106A", "code": "RM-106A", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,10", "PERTE DE PRESSION (KPA)": "26,89", "DIAMÈTRE (MM)": "26,89", "Vérification VPO": "IntégrAir-Séquence", "Prérequis": "SGB"}},
             {"nom": "ROBINET MOTORISÉ RM-106B", "code": "RM-106B", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "Z2050Q-F", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "0,03", "PERTE DE PRESSION (KPA)": "42,89", "DIAMÈTRE (MM)": "42,89", "Vérification VPO": "IntégrAir-Séquence", "Prérequis": "SGB"}},
             {"nom": "ROBINET MOTORISÉ RM-106C", "code": "RM-106C", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "BELIMO", "MODÈLE": "F7100HD", "RÉSEAU DE TUYAUTERIE": "Boucle de chauffage (secondaire)", "DÉBIT LIQUIDE (L/S)": "11,89", "PERTE DE PRESSION (KPA)": "4,62", "DIAMÈTRE (MM)": "4,62", "Vérification VPO": "IntégrAir-Séquence", "Prérequis": "SGB"}},
-            {"nom": "Panneau de Contrôle SGB", "code": "SGB", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Prérequis": "PEU-1"}},
+            {"nom": "Panneau de Contrôle SGB (PC-01)", "code": "SGB (PC-01)", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Contrôle", "Prédécesseur Électrique": "PEU-1", "Prérequis": "PEU-1"}},
             {"nom": "SÉPARATEUR D'AIR SPA-01", "code": "SPA-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "MARQUE": "SPIROTHERM", "MODÈLE": "VSR600FA", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "FT-MEC-029-0", "Vérification d'état": "FT-MEC-029"}},
             {"nom": "RÉSERVOIRS DE PRESSURISATION DE GLYCOL SPG-01", "code": "SPG-01", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Mécanique", "Prédécesseur Électrique": "PE-6", "MARQUE": "CALEFACTO", "MODÈLE": "GMP13100", "RÉSEAU DE TUYAUTERIE": "Boucle B-M (Primaire)", "FT / DA": "FT-MEC-027", "MOTEUR (HP)": "0,33", "CAPACITÉ (L)": "378", "DIAMÈTRE (MM)": "710", "HAUTEUR (MM)": "1700", "Vérification d'état": "FT-MEC-027", "Vérification VPO": "RIC-BAT634-1a", "Prérequis": "PE-6"}},
             {"nom": "Unité de ventilation UV-03 (VA)", "code": "UV-03 (VA)", "details": {"ÉTAT GÉNÉRAL": "À définir", "DISCIPLINE": "Ventilation", "Prédécesseur Électrique": "CCM-1", "MODÈLE": "Dakin CAH006GDGM", "Vérification d'état": "RIC-BAT632-3", "Vérification VPO": "PSM-MES-1", "Prérequis": "EFV-01-UV-03"}},
