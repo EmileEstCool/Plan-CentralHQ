@@ -424,7 +424,7 @@ function exportToPDF() {
         allData[lvl][rm][eqName] = item.data;
     });
 
-	const groups = [];
+    const groups = [];
 
     for (const [floor, rooms] of Object.entries(allData)) {
         for (const [room, equipments] of Object.entries(rooms)) {
@@ -434,21 +434,42 @@ function exportToPDF() {
                 const location = `Salle ${dataSaved.meta?.piece || room}`;
 
                 if (dataSaved.meta && dataSaved.details) {
+
+                    let refEq = null;
+                    if (typeof data !== 'undefined' && data[floor] && data[floor][room]) {
+                        refEq = data[floor][room].find(e => sanitizeKey(e.nom) === eqName);
+                    }
+
+                    const savedKeys = Object.keys(dataSaved.details);
+                    let orderedKeys = [];
+                    if (refEq) {
+                        orderedKeys = Object.keys(refEq.details)
+                            .filter(k => k !== 'Prérequis')
+                            .map(k => sanitizeKey(k))
+                            .filter(k => savedKeys.includes(k));
+                    }
+                    savedKeys.forEach(k => { if (!orderedKeys.includes(k)) orderedKeys.push(k); });
+
                     const rows = [];
-                    for (const [propKey, propData] of Object.entries(dataSaved.details)) {
+                    orderedKeys.forEach(propKey => {
+                        const propData = dataSaved.details[propKey];
+                        const nom = propData.nomOriginal || propKey;
+                        const valeur = (propData.valeur !== undefined && propData.valeur !== null && String(propData.valeur).trim() !== '')
+                            ? String(propData.valeur) : "";
                         rows.push([
-                            propData.nomOriginal || propKey,
+                            nom,
+                            valeur,
                             propData.etat || "-",
                             propData.commentaire || ""
                         ]);
-                    }
+                    });
                     groups.push({ location, equipLabel, rows });
                 }
             }
         }
     }
 
-    groups.sort((a, b) => a.location.localeCompare(b.location));
+    groups.sort((a, b) => a.location.localeCompare(b.location, undefined, { numeric: true }));
 
     const tableBody = [];
     groups.forEach(group => {
@@ -468,16 +489,24 @@ function exportToPDF() {
     }
 
     const { jsPDF } = window.jspdf;
-    const doc = new jsPDF();
+    const doc = new jsPDF({ orientation: 'landscape' });
     doc.text("Rapport d'Inspection d'Équipement", 14, 20);
 
     doc.autoTable({
-        head: [['Localisation', 'Équipement', 'Point de contrôle', 'Statut', 'Commentaire']],
+        head: [['Localisation', 'Équipement', 'Point de contrôle', 'Valeur / Référence', 'Statut', 'Commentaire']],
         body: tableBody,
         startY: 30,
         theme: 'grid',
         headStyles: { fillColor: [44, 62, 80] }, 
-        styles: { fontSize: 8 }
+        styles: { fontSize: 8, overflow: 'linebreak' },
+        columnStyles: {
+            0: { cellWidth: 25 },
+            1: { cellWidth: 45 },
+            2: { cellWidth: 45 },
+            3: { cellWidth: 55 },
+            4: { cellWidth: 15 },
+            5: { cellWidth: 'auto' }
+        }
     });
 
     if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
