@@ -1,6 +1,7 @@
 // ===== UTILITAIRES DE NETTOYAGE =====
 function sanitizeKey(str) { return str.replace(/[^a-zA-Z0-9]/g, "_"); }
 function sanitizeId(str) { return str.replace(/[^a-zA-Z0-9]/g, ""); }
+function isOkState(etat) { return etat === "C" || etat === "N/A" || etat === "NA"; }
 
 // Sécurité: nettoyer la mémoire si elle est corrompue
 try {
@@ -33,7 +34,7 @@ function isEquipVpoConforme(code) {
     const detailsArray = Object.values(saved.details || {});
     const hasNC = detailsArray.some(d => d.etat === "NC" && d.nomOriginal !== 'Prérequis');
     const total = Object.keys(eq.details).filter(k => k !== 'Prérequis').length;
-    const filled = detailsArray.filter(d => d.etat === "C" && d.nomOriginal !== 'Prérequis').length;
+    const filled = detailsArray.filter(d => isOkState(d.etat) && d.nomOriginal !== 'Prérequis').length;
     return !hasNC && filled >= total;
 }
 function getMissingVpoPrereqs(eq) {
@@ -209,7 +210,7 @@ function showEquipments(floor, roomNumber) {
                     const detailsArray = Object.values(savedData.details || {});
                     const hasNC = detailsArray.some(d => d.etat === "NC" && d.nomOriginal !== 'Prérequis');
                     const totalProps = Object.keys(eq.details).filter(k => k !== 'Prérequis').length;
-                    const filledProps = detailsArray.filter(d => d.etat === "C" && d.nomOriginal !== 'Prérequis').length;
+                    const filledProps = detailsArray.filter(d => isOkState(d.etat) && d.nomOriginal !== 'Prérequis').length;
 
                     if (hasNC) {
                         statusClass = "status-red";
@@ -315,14 +316,15 @@ function renderForm(savedData, floor, roomNumber, index) {
 
         html += `
         <div class="equipment" style="${isLocked ? 'opacity:0.6;' : ''}">
-          <strong>${propName} :</strong> ${propValue}
-          <div class="radio-group-horizontal">
-             <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="C" ${prevStatus === 'C' ? 'checked' : ''} ${disabledAttr}> C</label>
-             <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="NC" ${prevStatus === 'NC' ? 'checked' : ''} ${disabledAttr}> NC</label>
-             <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="N/A" ${prevStatus === 'N/A' || prevStatus === 'NA' ? 'checked' : ''} ${disabledAttr}> N/A</label>
-          </div>
-          ${lockNote}
-          <textarea id="comment_${safeProp}" placeholder="Notes..." ${isLocked ? 'disabled' : ''}>${prevComment}</textarea>
+            <strong>${propName} :</strong> ${propValue}
+            <div class="radio-group-horizontal">
+                <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="C" ${prevStatus === 'C' ? 'checked' : ''} ${disabledAttr} onchange="onEtatChange('${safeProp}')"> C</label>
+                <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="NC" ${prevStatus === 'NC' ? 'checked' : ''} ${disabledAttr} onchange="onEtatChange('${safeProp}')"> NC</label>
+                <label class="radio-label"><input type="radio" name="etat_${safeProp}" value="N/A" ${prevStatus === 'N/A' || prevStatus === 'NA' ? 'checked' : ''} ${disabledAttr} onchange="onEtatChange('${safeProp}')"> N/A</label>
+            </div>
+            ${lockNote}
+            <div id="naHint_${safeProp}" style="display:none;color:#e67e22;font-size:12px;margin-top:4px;">✏ Commentaire obligatoire : expliquez pourquoi c'est non applicable</div>
+            <textarea id="comment_${safeProp}" placeholder="Notes..." ${isLocked ? 'disabled' : ''} oninput="onEtatChange('${safeProp}')">${prevComment}</textarea>
         </div>`;
     }
 
@@ -335,6 +337,20 @@ function renderForm(savedData, floor, roomNumber, index) {
              </button>`;
 
     panel.innerHTML = html;
+    Object.keys(eq.details).forEach(p => { if (p !== 'Prérequis') onEtatChange(sanitizeId(p)); });
+}
+
+function onEtatChange(safeProp) {
+    let etat = "";
+    for (const r of document.getElementsByName(`etat_${safeProp}`)) { if (r.checked) etat = r.value; }
+    const ta = document.getElementById(`comment_${safeProp}`);
+    const hint = document.getElementById(`naHint_${safeProp}`);
+    const isNA = (etat === "N/A");
+    if (hint) hint.style.display = isNA ? 'block' : 'none';
+    if (ta) {
+        ta.placeholder = isNA ? "Raison du N/A (obligatoire)..." : "Notes...";
+        ta.style.border = (isNA && !ta.value.trim()) ? '2px solid #e67e22' : '';
+    }
 }
 
 // ===== SAUVEGARDE RÉELLE =====
@@ -344,6 +360,7 @@ function saveReport(event, floor, room, eqIndex) {
     const eq = data[floor][room][eqIndex];
     const report = {};
 
+const missingComments = [];
     try {
         for (const [propName, propValue] of Object.entries(eq.details)) {
             if (propName === 'Prérequis') continue;
@@ -357,6 +374,11 @@ function saveReport(event, floor, room, eqIndex) {
             const commentEl = document.getElementById(`comment_${safeProp}`);
             const commentaire = commentEl ? commentEl.value : "";
 
+            // N/A exige un commentaire
+            if (etat === "N/A" && !commentaire.trim()) {
+                missingComments.push({ propName, commentEl });
+            }
+
             report[firebaseSafeKey] = {
                 nomOriginal: propName, valeur: propValue, etat: etat,
                 commentaire: commentaire
@@ -365,6 +387,14 @@ function saveReport(event, floor, room, eqIndex) {
     } catch (err) {
         console.error("Erreur pendant la construction du rapport:", err);
         alert("Erreur JS: " + err.message);
+        return;
+    }
+
+    if (missingComments.length > 0) {
+        alert("Un commentaire est obligatoire pour les points « N/A » :\n\n- " +
+            missingComments.map(m => m.propName).join("\n- "));
+        const first = missingComments[0].commentEl;
+        if (first) { first.scrollIntoView({ behavior: 'smooth', block: 'center' }); first.focus(); }
         return;
     }
 
